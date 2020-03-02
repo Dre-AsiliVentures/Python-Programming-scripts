@@ -1,0 +1,15 @@
+file=open("newDocument.txt","r")
+print("Reading the initial contents")
+print(file.read())
+print("Finished")
+file.close()
+
+file=open("newDocument.txt","w")
+file.write("Programming is exciting")
+file.close()
+
+file=open("newDocument.txt","r")
+print("Reading file contents")
+print(file.read())
+print("Finished")
+file.close()
