@@ -1,3 +1,6 @@
+pandas
+python-binance
+ta-py
 from binance import Client
 import datetime
 import logging
